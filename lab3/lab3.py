@@ -10,8 +10,8 @@ def func_min(point):
     x,y = point
     return (np.sin(x) * np.sin(y)) / (x * y)
 
-x = np.arange(-6, 6, 0.1)
-y = np.arange(-6, 6, 0.1)
+x = np.arange(-6, 6, 0.01)
+y = np.arange(-6, 6, 0.01)
 
 X,Y = np.meshgrid(x, y)
 Z = func(X,Y)
